@@ -177,6 +177,47 @@ body {
 .rodape-copyright {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 1rem;
-    margin: 0 7.5rem 7.5rem 5rem;
+    margin: 0 7.5rem 5rem 7.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        display: block;
+        background-image: none;
+    }
+
+    .container-imagem {
+        width: 50vw;
+    }
+
+    .container-caixa {
+        margin: 2rem 2rem;
+    }
+
+    .secundario {
+        margin: 0;
+        text-align: center;
+    }
+
+    .secundario-imagem {
+        width: 50vw;
+    }
+
+    .dispositivos-lista {
+        display: block;
+    }
+
+    .dispositivos-titulo {
+        font-size: 2rem;
+    }
+
+    .rodape-lista {
+        display: block;
+    }
+
+    .rodape-copyright {
+        margin: 0 1rem 4rem 1rem;
+    }
 }
